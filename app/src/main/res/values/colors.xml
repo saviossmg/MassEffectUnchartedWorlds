@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#9B9B9B</color>
+
+    <color name="corBranca">#FFFFFF</color>
+    <color name="corPrata">#807777</color>
+    <color name="textoNaoSelecionado">#d9d9d9</color>
+    <color name="textoHint">#a2cfcfcf</color>
+
+    <color name="fundoLista">#28bababa</color>
+    <color name="listaSelecionada">#1ebababa</color>
+
+    <color name="btnazul">#bb184461</color>
+    <color name="btnazulpress">#BB13384D</color>
+    <color name="btnazuldis">#BB0D2735</color>
+    <color name="btnverde">#bb2f910f</color>
+    <color name="btnverdepress">#BB23690B</color>
+    <color name="btnverdedis">#BB174D08</color>
+    <color name="btncinza">#bb949494</color>
+    <color name="btncinzapress">#BB616161</color>
+    <color name="btncinzadis">#BB464646</color>
+    <color name="btnvermelho">#bbde1a1a</color>
+    <color name="btnvvermelhopress">#BBAD1111</color>
+    <color name="btnvvermelhodis">#BB720C0C</color>
+
+    <color name="start_gradient_color">#02AAFF</color>
+    <color name="end_gradient_color">#FF6800</color>
+</resources>

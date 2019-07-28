@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".view.sobre.SobreActivity"
+        android:background="@drawable/fundo3">
+
+    <android.support.design.widget.AppBarLayout
+            android:id="@+id/sobre_appbarlayout_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/sobre_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/transparent"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:titleTextColor="@android:color/white"
+                tools:title="@string/sobre_toolbar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_container"
+            app:layout_constraintTop_toBottomOf="@+id/sobre_appbarlayout_container"
+            app:layout_constraintBottom_toTopOf="@+id/sobre_gdl_h17"
+            app:layout_constraintEnd_toStartOf="@+id/sobre_gdl_v19"
+            app:layout_constraintStart_toStartOf="@+id/sobre_gdl_v01"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/sobre_txt_1"
+                    android:text="@string/sobre_txt_parta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/corBranca"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textAlignment="center"
+                    android:layout_marginTop="15dp"/>
+
+            <TextView
+                    android:id="@+id/sobre_txt_2"
+                    android:text="@string/sobre_txt_partb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/corBranca"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textAlignment="center"
+                    android:layout_marginTop="25dp"/>
+
+            <TextView
+                    android:id="@+id/sobre_txt_3"
+                    android:text="@string/sobre_txt_partc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/corBranca"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textAlignment="center"
+                    android:layout_marginTop="25dp"/>
+
+            <TextView
+                    android:id="@+id/sobre_txt_4"
+                    android:text="@string/sobre_txt_partd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/corBranca"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textAlignment="center"
+                    android:layout_marginTop="25dp"/>
+
+            <TextView
+                    android:id="@+id/sobre_txt_5"
+                    android:text="@string/sobre_txt_parte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/corBranca"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textAlignment="center"
+                    android:layout_marginTop="25dp"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.AppCompatButton
+            android:text="@string/sobre_btn_wikia"
+            android:layout_width="0dp"
+            android:layout_height="0dp" android:id="@+id/sobre_btn_linkwikia"
+            app:layout_constraintBottom_toTopOf="@+id/sobre_gdl_h19"
+            app:layout_constraintEnd_toStartOf="@+id/sobre_gdl_v09"
+            app:layout_constraintStart_toStartOf="@+id/sobre_gdl_v01"
+            app:layout_constraintTop_toTopOf="@+id/sobre_gdl_h17"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+            android:text="@string/sobre_btn_press"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_btn_linkgamepress"
+            app:layout_constraintEnd_toStartOf="@+id/sobre_gdl_v19"
+            app:layout_constraintStart_toStartOf="@+id/sobre_gdl_v11"
+            app:layout_constraintBottom_toTopOf="@+id/sobre_gdl_h19"
+            app:layout_constraintTop_toTopOf="@+id/sobre_gdl_h17"/>
+
+    <!-- horizontal -->
+    <android.support.constraint.Guideline
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_gdl_h17"
+            app:layout_constraintGuide_percent="0.85"/>
+
+    <android.support.constraint.Guideline
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_gdl_h19"
+            app:layout_constraintGuide_percent="0.95"/>
+
+    <!-- vertical -->
+    <android.support.constraint.Guideline
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_gdl_v01"
+            app:layout_constraintGuide_percent="0.05"/>
+
+    <android.support.constraint.Guideline
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_gdl_v09"
+            app:layout_constraintGuide_percent="0.45"/>
+
+    <android.support.constraint.Guideline
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_gdl_v11"
+            app:layout_constraintGuide_percent="0.55"/>
+
+    <android.support.constraint.Guideline
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/sobre_gdl_v19"
+            app:layout_constraintGuide_percent="0.95"/>
+
+</android.support.constraint.ConstraintLayout>

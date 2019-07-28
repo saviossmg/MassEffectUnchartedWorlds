@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Mass Effect Uncharted Worlds</string>
+
+    <string name="inicio_texto">Select your player</string>
+    <string name="inicio_btnentrar">Start</string>
+    <string name="inicio_btncriar">New Player</string>
+    <string name="inicio_btnsobre">About</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard_explored">Explored</string>
+    <string name="title_dashboard_unexplored">Uncharted</string>
+
+    <string name="novo_hint_nome">Insert the player name</string>
+    <string name="novo_male">Male</string>
+    <string name="novo_female">Female</string>
+    <string name="novo_unk">"I don't know"</string>
+    <string name="novo_salvar">Save</string>
+    <string name="novo_toolbar">Character Creation</string>
+    <string name="novo_sucess">Character created!</string>
+
+    <string name="sobre_toolbar">About APP</string>
+    <string name="sobre_btn_wikia">Visit Mass Effect Wikia</string>
+    <string name="sobre_btn_press">Visit Game Pressure</string>
+    <string name="sobre_txt_parta">This application aims to be a marker of the exploit of uncharted worlds of Mass
+        Effect game, allowing the player manage your progress and be aware of everything that has already been collected
+        during your exploration.
+    </string>
+    <string name="sobre_txt_partb">This APP is not a official product.</string>
+    <string name="sobre_txt_partc">Mass Effect is a game of EA Games, all rights reserved.</string>
+    <string name="sobre_txt_partd">APP developed by Sávio M. Valentim in 2019.</string>
+    <string name="sobre_txt_parte">If you prefer to read the walkthrogh or other information about the game, you can
+        visit these two sites.
+    </string>
+
+    <string name="erro_nome_personagem_vazio">Name is not empty.</string>
+    <string name="erro_nome_personagem_max">Name is should beetwen 1 and 25 letters.</string>
+    <string name="erro_classe">Select a class.</string>
+    <string name="erro_personagem_a">Create a player.</string>
+    <string name="erro_personagem_b">Select a player.</string>
+
+    <string name="home_text_status">Exploration Status</string>
+    <string name="home_text_clusters">Visited Clusters</string>
+    <string name="home_text_sistens">Visited Systems</string>
+    <string name="home_text_planets">Viseted Planets</string>
+    <string name="home_text_resources">Explored Resources</string>
+    <string name="home_text_minerals">Explored Minerals</string>
+    <string name="home_btn_deletar">Delete</string>
+    <string name="home_btn_sair">Log Out</string>
+
+
+</resources>
